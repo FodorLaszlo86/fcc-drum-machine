@@ -1,0 +1,48 @@
+{
+  "name": "drum-machine",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "2.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FodorLaszlo86/fcc-drum-machine.git"
+  },
+  "keywords": [
+    "React",
+    "Sass",
+    "Css_Grid"
+  ],
+  "author": "Laszlo Fodor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FodorLaszlo86/fcc-drum-machine/issues"
+  },
+  "homepage": "https://fodorlaszlo86.github.io/drum-machine/"
+}

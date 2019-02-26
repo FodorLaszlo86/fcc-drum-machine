@@ -1,0 +1,41 @@
+/* Global Style */
+@import './BankSwitch.scss';
+@import './DumMachine.scss';
+@import './DumPad.scss';
+@import './Display.scss';
+@import './PowerBtn.scss';
+@import './Tab.scss';
+@import './VolumeCtrl.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+    min-height: 100vh;
+
+    @media only screen and (max-width: 725px) {
+            font-size: 56%;
+    }
+
+    @media only screen and (max-width: 500px) {
+        height: 100vh;
+
+}
+
+
+
+}
+
+body {
+    font-size: 1.6rem;
+    box-sizing: inherit;
+    background-image: linear-gradient(45deg, #568ca7, #323162);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

@@ -1,0 +1,22 @@
+.drum-pad {
+    background-color: #7c7b7b;
+    font-size: 1.7rem;
+    color:#98fafa;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    border-radius: .4rem;
+    box-shadow: .2rem .5rem .5rem rgba(34, 33, 33, 0.938);
+
+    @media only screen and (max-width: 650px) {
+        width: 80%;
+        height: 80%
+    }
+}
+
+.hit-pad-style {
+    background-color: #575555;
+}

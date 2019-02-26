@@ -1,0 +1,35 @@
+.bank-switch__panel {
+    margin: 2.5rem 0;
+    display: flex;
+
+    @media only screen and (max-width: 650px) {
+        justify-content: center;
+    }
+    @media only screen and (max-width: 400px) {
+       margin-top: 1rem
+    }
+
+    .bank__btn {
+        margin-right: 1.5rem;
+        border: none;
+        background-color: rgb(31, 30, 30);
+        color: #9bc0c0;
+        padding: .5rem .8rem;
+        border: 1px solid rgba(14, 13, 13, 0.733);
+        border-radius: 10rem;
+        box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.774);
+
+        &:focus {
+            outline: none;
+        }
+
+        &:active {
+            transform: translateY(.2rem);
+            box-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.774);
+        }
+    }
+
+    .bank__btn--active {
+        color: #64ffff;
+    }
+}

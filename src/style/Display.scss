@@ -1,0 +1,50 @@
+.display {
+    flex: 1;
+    height: 8rem;
+    background-color: #30b0c7;
+    display: flex;
+    flex-direction: column;
+    border-radius: .4rem;
+
+    @media only screen and (max-width: 650px) {
+        width: 50vw;   
+    }
+
+    @media only screen and (max-width: 500px) {
+        width: 70vw;   
+        margin: 25px;
+        margin-top: 0;
+    }
+
+    @media only screen and (max-width: 400px) {
+        margin: 0;
+        width: 80vw;
+    }
+
+    &__primary {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: .5rem;
+        color: rgb(33, 29, 77);
+    }
+
+    &__secondary {
+        display: flex;
+        justify-content: space-around;
+        padding: .5rem 0;
+        color: rgba(126, 126, 126, 0.9);
+    }
+}
+
+.drum-machine__display {
+    margin: 2.5rem;
+    flex: 1;
+
+}
+
+#display {
+    @media only screen and (max-width: 400px) {
+    }
+}

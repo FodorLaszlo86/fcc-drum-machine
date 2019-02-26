@@ -1,0 +1,31 @@
+.material-icons { 
+    border: 1px solid rgb(138, 132, 132);
+    background-color: rgb(8, 8, 8);
+    color:  rgb(250, 250, 250);
+    border-radius: 10rem;
+    padding: .5rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all .25s;
+
+    @media only screen and (max-width: 650px) {
+        width: 4.5rem;
+        height: 4.5rem;
+        font-size: 2.8rem;
+        padding: .6rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    
+
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.power-on {
+    box-shadow: 0 0 5px 2px #fff, 0 0 6px 6px #0ff, 0 0 8px 3px rgb(241, 138, 241);
+    background-image: radial-gradient( rgb(159, 251, 251), #000000);
+    text-shadow: 0 0 2px 5px #0ff;
+}
